@@ -7,7 +7,7 @@ const api = axios.create({
 	},
 });
 
-const apiKey = process.env.API_KEY;
+const apiKey = import.meta.env.VITE_API_KEY;
 
 export const getData = async (params) => {
 	let url = `/api/${params.target}?key=${apiKey}&dateFrom=${params.dateFrom}&page=${params.page}`;
