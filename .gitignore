@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-error.log*
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
