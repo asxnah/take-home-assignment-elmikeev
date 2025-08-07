@@ -45,8 +45,8 @@ const scrollToTop = () => {
 		</nav>
 	</header>
 	<router-view></router-view>
-	<footer class="footer-nav">
-		<ul class="footer-list">
+	<footer class="footer__nav">
+		<ul class="footer__list">
 			<h4>Навигация</h4>
 			<li>
 				<router-link to="/" :class="route.path === '/' && 'active'">
@@ -69,15 +69,15 @@ const scrollToTop = () => {
 				</router-link>
 			</li>
 		</ul>
-		<ul class="footer-list">
+		<ul class="footer__list">
 			<h4>Разработчик</h4>
 			<li><a href="https://github.com/asxnah" target="_blank">GitHub</a></li>
 			<li><a href="https://vk.com/id187555807" target="_blank">VK</a></li>
 		</ul>
-		<ul class="footer-list">
+		<ul class="footer__list">
 			<li><p>2025 All Rights Reserved</p></li>
 			<li>
-				<button class="inline-button" @click="scrollToTop">Наверх</button>
+				<button class="inlineButton" @click="scrollToTop">Наверх</button>
 			</li>
 		</ul>
 	</footer>

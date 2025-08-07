@@ -85,7 +85,7 @@ onMounted(async () => {
 			<button type="submit" :disabled="waiting">
 				{{ waiting ? '...' : 'Найти' }}
 			</button>
-			<button @click.prevent="reset" class="inline-button">↺</button>
+			<button @click.prevent="reset" class="inlineButton">↺</button>
 		</form>
 
 		<div v-if="waiting">Загрузка...</div>
